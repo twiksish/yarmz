@@ -1,0 +1,97 @@
+.prefooter {
+        padding: 29px 42px 29px 0;
+}
+
+    .prefooter__left {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        .prefooter__left__top {
+
+        }
+
+            .prefooter__left__top__title {
+                font-size: 15px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #fff;
+                display: inline;
+            }
+
+            .prefooter__left__top__link {
+                display: inline;
+                margin-left: 9px;
+            }
+
+        .prefooter__left__bottom {
+            width: 240px;
+            margin-top: 26px;
+        }
+
+            .prefooter__left__bottom__item {
+                margin-top: 10px;
+                padding-bottom: 19px;
+                border-bottom: 1px solid #494949;
+            }
+
+            .prefooter__left__bottom__item:first-child {
+                margin-top: 0;
+            }
+
+            .prefooter__left__bottom__item:last-child {
+                border-bottom: none;
+            }
+
+    .prefooter__middle {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 81px;
+    }
+
+        .prefooter__middle__top {
+
+        }
+
+            .prefooter__middle__top__title {
+                font-size: 15px;
+                line-height: 17px;
+                text-transform: uppercase;
+                color: #fff;
+                display: inline;
+            }
+
+            .prefooter__middle__top__link {
+                display: inline;
+                margin-left: 20px;
+            }
+
+        .prefooter__middle__center {
+            font-size: 40px;
+            line-height: 42px;
+            color: #fff;
+            padding-top: 10px;
+            border-top: 1px solid #494949;
+            margin-top: 15px;
+        }
+
+        .prefooter__middle__bottom {
+            margin-top: 26px;
+        }
+
+    .prefooter__right {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 110px;
+    }
+
+        .prefooter__right__top {
+            font-size: 15px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .prefooter__right__bottom {
+            margin-top: 27px;
+        }

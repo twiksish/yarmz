@@ -30,6 +30,10 @@
         margin: 20px 0 0;
     }
 
+    .page__prefooter {
+        background: #383838;
+    }
+
     .page__footer {
         background: #4b4948;
     }

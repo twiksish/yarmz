@@ -5,7 +5,7 @@
     .action__item {
         display: inline-block;
         vertical-align: top;
-        margin-left: 20px;
+        margin-left: 4px;
     }
 
     .action__item:first-child {
@@ -20,7 +20,7 @@
         .action__item__text {
             display: inline-block;
             vertical-align: top;
-            margin-left: 10px;
-            width: 96px;
+            margin-left: 6px;
+            width: 100px;
             line-height: 15px;
         }

@@ -1,0 +1,13 @@
+.social {
+
+}
+
+    .social__item {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 7px;
+    }
+
+    .social__item:first-child {
+        margin-left: 0;
+    }
