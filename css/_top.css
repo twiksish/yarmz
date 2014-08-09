@@ -5,8 +5,8 @@
 
     .top__search {
         position: absolute;
-        top: 16px;
-        right: 100px;
+        top: 15px;
+        right: 37px;
     }
 
         .top__search__field {
@@ -23,8 +23,8 @@
 
     .top__sign-in {
         position: absolute;
-        top: 16px;
-        right: 478px;
+        top: 15px;
+        right: 378px;
     }
 
         .top__sign-in__icon {

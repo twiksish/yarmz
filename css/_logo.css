@@ -1,6 +1,27 @@
 .logo {
     display: block;
-    width: 208px;
-    height: 72px;
-    background: url(../images/sprite.png) no-repeat 0 0;
 }
+
+    .logo__image {
+        display: inline-block;
+        vertical-align: top;
+        background: url(../images/logo.png) no-repeat 0 0;
+        width: 55px;
+        height: 50px;
+        margin-right: 1px;
+    }
+
+    .logo__text {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 21px;
+        line-height: 21px;
+        color: #fff;
+        text-transform: uppercase;
+        padding-top: 4px;
+    }
+
+    .logo__text_blue {
+        color: #c5ddf5;
+        display: inline;
+    }

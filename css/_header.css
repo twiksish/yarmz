@@ -1,9 +1,41 @@
 .header {
-    height: 200px;
+    height: 91px;
     position: relative;
 }
     .header__logo {
-        position: absolute;
-        left: 10px;
-        top: 10px;
+        padding-top: 20px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .header__contacts {
+        display: inline-block;
+        vertical-align: top;
+        padding: 25px 0 21px;
+        margin-left: 45px;
+        color: #a1a1a1;
+        border-bottom: 6px solid #73a4cf;
+        width: 169px;
+    }
+
+        .header__contacts__top {
+            font-size: 13px;
+            line-height: 15px;
+        }
+
+        .header__contacts__bottom {
+            font-size: 22px;
+            line-height: 24px;
+        }
+
+        .header__contacts__bottom_white {
+            color: #fff;
+            display: inline;
+        }
+
+    .header__actions {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 68px;
+        padding-top: 26px;
     }
