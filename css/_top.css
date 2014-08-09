@@ -1,0 +1,39 @@
+.top {
+    position: relative;
+    height: 50px;
+}
+
+    .top__search {
+        position: absolute;
+        top: 16px;
+        right: 100px;
+    }
+
+        .top__search__field {
+            width: 206px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .top__search__icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 33px;
+        }
+
+    .top__sign-in {
+        position: absolute;
+        top: 16px;
+        right: 478px;
+    }
+
+        .top__sign-in__icon {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .top__sign-in__link {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+        }

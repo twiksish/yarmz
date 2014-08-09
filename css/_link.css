@@ -1,6 +1,10 @@
 .link {
     text-decoration: underline;
-    color: #999;
+    font-size: 13px;
+}
+
+.link_gray {
+    color: #a1a1a1;
 }
 
 .link:hover {

@@ -1,17 +1,86 @@
 .icon {
     display: inline-block;
     vertical-align: top;
-    background: url(../images/sprite.png) no-repeat;
 }
 
-.icon_bitcoin {
+.icon_gear {
+    background: url(../images/icon_gear.png);
+    width: 168px;
+    height: 82px;
+}
+
+.icon_gear-small {
+    background: url(../images/icon_gear_small.png);
+    width: 55px;
+    height: 56px;
+}
+
+.icon_in {
+    background: url(../images/icon_in.png);
+    width: 24px;
+    height: 27px;
+}
+
+.icon_search {
+    background: url(../images/icon_search.png);
+    width: 25px;
+    height: 25px;
+}
+
+.icon_phone {
+    background: url(../images/icon_phone.png);
+    width: 36px;
+    height: 34px;
+}
+
+.icon_mail {
+    background: url(../images/icon_mail.png);
+    width: 34px;
+    height: 36px;
+}
+
+.icon_tool {
+    background: url(../images/icon_tool.png);
+    width: 32px;
+    height: 21px;
+}
+
+.icon_fb {
+    background: url(../images/icon_fb.png);
     width: 33px;
     height: 33px;
-    background-position: 0 -72px;
 }
 
-.icon_house {
-    width: 13px;
-    height: 10px;
-    background-position: -33px -72px;
+.icon_fb:hover {
+    background: url(../images/icon_fb2.png);
+}
+
+.icon_google {
+    background: url(../images/icon_google.png);
+    width: 33px;
+    height: 33px;
+}
+
+.icon_google:hover {
+    background: url(../images/icon_google2);
+}
+
+.icon_vk {
+    background: url(../images/icon_vk.png);
+    width: 33px;
+    height: 33px;
+}
+
+.icon_vk:hover {
+    background: url(../images/icon_vk2.png);
+}
+
+.icon_twitter {
+    background: url(../images/icon_twitter.png);
+    width: 33px;
+    height: 33px;
+}
+
+.icon_twitter:hover {
+    background: url(../images/icon_twitter2.png);
 }

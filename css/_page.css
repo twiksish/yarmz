@@ -1,6 +1,10 @@
 .page {
 
 }
+    .page__top {
+        background: #343434;
+        border-bottom: 1px solid #3a3a3a;
+    }
     .page__header {
 
     }
