@@ -2,8 +2,40 @@
 
 }
     .nav__item {
-
+        font-size: 15px;
+        line-height: 87px;
+        color: #fff;
+        text-transform: uppercase;
+        background: #73a4cf;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
     }
-        .nav__item__link {
 
+    .nav__item:first-child {
+        background: #4c4c4c;
+    }
+
+        .nav__item__link {
+            padding: 43px 32px;
+            white-space: nowrap;
         }
+
+        .nav__item__link:hover {
+            background: url(../images/nav_arrow.png) no-repeat center 65px;
+        }
+
+        .nav__item__link_active {
+            background: url(../images/nav_arrow.png) no-repeat center 65px;
+        }
+
+        .nav__item__separator {
+            background: url(../images/nav_separator.jpg);
+            width: 2px;
+            height: 84px;
+            position: absolute;
+            top: 2px;
+            right: 0;
+        }
+

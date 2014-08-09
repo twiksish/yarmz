@@ -1,5 +1,5 @@
 .page {
-
+    position: relative;
 }
     .page__top {
         background: #343434;
@@ -9,14 +9,27 @@
         background: #4c4c4c;
     }
 
-    .page__nav {
-        margin: 20px 0 0;
+    .page__slider {
+        background: url(../images/slider_image1.jpg) no-repeat top center;
+        width: 1200px;
+        height: 350px;
+        margin: 0 auto;
     }
+
+    .page__nav {
+        text-align: center;
+        margin-top: -98px;
+    }
+
+        .page__nav__inner {
+            display: inline-block;
+            vertical-align: top;
+        }
 
     .page__body {
         margin: 20px 0 0;
     }
 
     .page__footer {
-        margin: 20px 0 0;
+        background: #4b4948;
     }
