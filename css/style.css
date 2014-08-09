@@ -19,7 +19,8 @@
 @import url(_ancients.css);
 @import url(_logo.css);
 @import url(_nav.css);
-/*@import url(_breadcrumbs.css);*/
+@import url(_menu.css);
+@import url(_breadcrumbs.css);
 /*@import url(_pagination.css);*/
 /*@import url(_sidebar.css);*/
 @import url(_text.css);
@@ -28,6 +29,6 @@
 @import url(_top.css);
 @import url(_prefooter.css);
 @import url(_footer.css);
-/*@import url(_body.css);*/
+@import url(_body.css);
 @import url(_region.css);
 @import url(_page.css);

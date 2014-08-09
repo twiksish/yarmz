@@ -12,3 +12,14 @@
         font-size: 13px;
         line-height: 15px;
     }
+
+    .product__price {
+        font-size: 15px;
+        line-height: 17px;
+        color: #454545;
+        background: url(../images/rouble.png) no-repeat 80px 0;
+    }
+
+    .product__button {
+        margin-top: 4px;
+    }

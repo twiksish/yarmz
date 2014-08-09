@@ -17,6 +17,7 @@
 
     .text__description_narrow {
         margin-top: 8px;
+        color: #9e9e9e;
     }
 
     .text__description-italic {
@@ -39,3 +40,8 @@
         margin-top: 16px;
         padding-left: 20px;
     }
+
+.text_icon {
+    padding: 0 0 26px 47px;
+    background: url(../images/cross.png) no-repeat 0 center;
+}

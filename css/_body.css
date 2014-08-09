@@ -1,15 +1,29 @@
 .body {
-
+    padding: 20px 0 60px 0;
 }
     .body__sidebar {
         display: inline-block;
         vertical-align: top;
-        width: 200px;
-        margin: 0 20px 0 0;
+        width: 223px;
+        margin: 22px 10px 0 0;
     }
 
     .body__content {
         display: inline-block;
         vertical-align: top;
-        width: 740px;
+        width: 707px;
     }
+
+        .body__content__top {
+
+        }
+
+        .body__content__description {
+            margin-top: 5px;
+        }
+
+        .body__content__item {
+            margin-top: 40px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 16px;
+        }

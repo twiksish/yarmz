@@ -1,13 +1,21 @@
 .breadcrumbs {
     margin: 0 -4px;
     cursor: default;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4c4c4c;
 }
     .breadcrumbs__item {
         display: inline-block;
         vertical-align: top;
-        margin: 0 4px;
+        margin: 0 2px;
     }
 
         .breadcrumbs__item__link {
-            color: #999;
+            color: #73a4cf;
+            text-decoration: underline;
+        }
+
+        .breadcrumbs__item__link:hover {
+            text-decoration: none;
         }

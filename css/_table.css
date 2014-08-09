@@ -14,3 +14,6 @@
                 border-bottom: 1px solid #eaeaea;
             }
 
+        .table__body__row:hover {
+            background: #e3e8ed;
+        }
