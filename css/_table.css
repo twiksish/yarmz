@@ -1,0 +1,35 @@
+.table {
+    background: #eee;
+/*
+    border-collapse: separate; // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
+    border-spacing: 1px;       // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
+*/
+}
+
+    .table__head {
+        background: #d5e1ee;
+    }
+        .table__head__row {
+
+        }
+            .table__head__row__cell {
+                padding: 5px 10px 3px;
+                border: 1px solid #fff;
+                text-align: center;
+            }
+
+
+    .table__body {
+
+    }
+        .table__body__row {
+
+        }
+            .table__body__row__cell {
+                padding: 5px 10px 3px;
+                border: 1px solid #fff;
+            }
+
+        .table__body__row:nth-child(odd) {
+            background: #f4f4f4;
+        }
