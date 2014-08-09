@@ -20,7 +20,13 @@
 }
 
 .wysiwyg ul {
-    list-style: disc;
+    list-style: none;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.wysiwyg ul li:before {
+    content: '—';
 }
 
 .wysiwyg ol {
@@ -39,8 +45,10 @@
 }
 
 .wysiwyg a {
-    color: #999;
+    color: #2e8bb6;
     text-decoration: underline;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .wysiwyg a:hover,

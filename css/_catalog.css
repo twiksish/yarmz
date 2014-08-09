@@ -1,0 +1,22 @@
+.catalog {
+
+}
+
+    .catalog__top {
+        position: relative;
+    }
+
+        .catalog__top__left {
+
+        }
+
+        .catalog__top__right {
+            width: 191px;
+            position: absolute;
+            top: 9px;
+            right: 84px;
+        }
+
+    .catalog__bottom {
+        margin-top: 26px;
+    }

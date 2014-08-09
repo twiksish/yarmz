@@ -11,10 +11,6 @@
         width: 210px;
     }
 
-    /*.service__item:first-child {*/
-        /*margin-left: 0;*/
-    /*}*/
-
         .service__item__title {
             font-size: 17px;
             line-height: 19px;

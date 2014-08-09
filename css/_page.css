@@ -27,7 +27,7 @@
         }
 
     .page__body {
-        margin: 20px 0 0;
+        background: #eaeaea url(../images/icon_gear.png) no-repeat bottom center;
     }
 
     .page__service {

@@ -1,14 +1,38 @@
 .content {
-
+    padding: 50px 0 50px 0;
 }
-    .content__header {
-
+    .content__top {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #fff;
     }
 
-    .content__body {
-        margin: 20px 0 0;
+    .content__middle {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #fff;
+        margin-top: 35px;
     }
 
-    .content__body:first-child {
-        margin-top: 0;
+    .content__bottom {
+        margin-top: 30px;
     }
+
+        .content__bottom__left {
+            display: inline-block;
+            vertical-align: top;
+            width: 424px;
+        }
+
+        .content__bottom__right {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 27px;
+            width: 485px;
+        }
+
+            .content__bottom__right__top {
+
+            }
+
+            .content__bottom__right__bottom {
+                margin-top: 30px;
+            }

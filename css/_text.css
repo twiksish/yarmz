@@ -1,0 +1,41 @@
+.text {
+
+}
+
+    .text__title {
+        font-size: 24px;
+        line-height: 26px;
+        color: #454545;
+    }
+
+    .text__description {
+        font-size: 13px;
+        line-height: 15px;
+        color: #454545;
+        margin-top: 15px;
+    }
+
+    .text__description_narrow {
+        margin-top: 8px;
+    }
+
+    .text__description-italic {
+        font-size: 14px;
+        line-height: 16px;
+        color: #848484;
+        margin-top: 10px;
+    }
+
+    .text__link {
+        margin-top: 11px;
+    }
+
+    .text__button {
+        margin-top: 14px;
+        width: 191px;
+    }
+
+    .text__list {
+        margin-top: 16px;
+        padding-left: 20px;
+    }
