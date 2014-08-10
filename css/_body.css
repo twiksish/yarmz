@@ -27,3 +27,33 @@
             border-bottom: 1px solid #fff;
             padding-bottom: 16px;
         }
+
+        .body__content__map {
+            margin-top: 20px;
+        }
+
+            .body__content__map__title {
+                font-size: 18px;
+                line-height: 20px;
+                color: #454545;
+            }
+
+            .body__content__map__item {
+                margin-top: 10px;
+                height: 219px;
+                border: 3px solid #fff;
+            }
+
+        .body__content__form {
+            margin-top: 25px;
+        }
+
+            .body__content__form__title {
+                font-size: 18px;
+                line-height: 20px;
+                color: #454545;
+            }
+
+            .body__content__form__item {
+                margin-top: 15px;
+            }

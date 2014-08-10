@@ -3,6 +3,10 @@
 @import url(_3_reset.css);
 @import url(_4_initialization.css);
 
+@import url(nays-form.css);
+@import url(nays-field.css);
+@import url(nays-capcha.css);
+@import url(nays-button.css);
 @import url(_link.css);
 @import url(_link-list.css);
 @import url(_icon.css);

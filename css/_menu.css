@@ -19,12 +19,18 @@
     }
 
         .menu__item__link {
-            padding: 10px 30px 8px 28px;
+            padding: 10px 20px 8px 28px;
             font-size: 14px;
             line-height: 16px;
             color: #454545;
             text-decoration: underline;
             display: block;
+        }
+
+        .menu__item__link_active {
+            text-decoration: none;
+            background: #454545 url(../images/arrow.png) no-repeat 8px center;
+            color: #fff;
         }
 
         .menu__item__link:hover {

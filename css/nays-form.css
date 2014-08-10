@@ -1,0 +1,91 @@
+.nays-form {
+
+}
+    .nays-form__errors {
+        border: 2px solid #c50000;
+        font-size: 12px;
+        line-height: 14px;
+        color: #333;
+    }
+        .nays-form__errors__title {
+            padding: 9px 10px 8px;
+            background: #ffe8e8;
+        }
+
+        .nays-form__errors__list {
+            padding: 10px 0 13px 22px;
+        }
+
+            .nays-form__errors__list__item {
+                margin: 1px 0 0;
+                position: relative;
+            }
+            .nays-form__errors__list__item:first-child {
+                margin-top: 0;
+            }
+
+            .nays-form__errors__list__item:before {
+                content: '*';
+                position: absolute;
+                top: 0;
+                right: 100%;
+                margin: 0 4px 0 0;
+            }
+
+    .nays-form__unit {
+        margin: 17px 0 0;
+    }
+
+        .nays-form__unit__row {
+            margin: 12px 0 0;
+            position: relative;
+        }
+            .nays-form__unit__row__field {
+                width: 283px;
+            }
+
+            .nays-form__unit__row__output {
+                position: absolute;
+                top: 0;
+                left: 300px;
+                right: 0;
+                margin: 2px 0 0 9px;
+                font-size: 11px;
+                line-height: 12px;
+                color: #c50000;
+            }
+
+            .nays-form__unit__row__button {
+                display: inline-block;
+                vertical-align: top;
+                margin: 0 0 0 14px;
+            }
+
+            .nays-form__unit__row__button:first-child {
+                margin-left: 0;
+            }
+
+        .nays-form__unit__row_larger .nays-form__unit__row__field {
+            width: 376px;
+        }
+
+        .nays-form__unit__row_larger .nays-form__unit__row__output {
+            left: 393px;
+        }
+
+        .nays-form__unit__row_capcha {
+            margin: 24px 0 0;
+        }
+
+        .nays-form__unit__row_submit {
+            margin: 24px 0 0;
+        }
+
+        .nays-form__unit__row:first-child {
+            margin-top: 0;
+        }
+
+    .nays-form__unit:first-child {
+        margin-top: 0;
+    }
+
