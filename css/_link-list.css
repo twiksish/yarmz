@@ -3,7 +3,7 @@
 }
 
     .link-list__item {
-        margin-top: 5px;
+        margin-top: 4px;
     }
 
         .link-list__item__icon {
@@ -17,5 +17,5 @@
         .link-list__item__text {
             display: inline-block;
             vertical-align: middle;
-            margin-left: 5px;
+            margin-left: 6px;
         }

@@ -12,8 +12,21 @@
             .table__body__row__cell {
                 padding: 13px 30px 10px 18px;
                 border-bottom: 1px solid #eaeaea;
+                font-size: 13px;
+                line-height: 15px;
+            }
+
+            .table__body__row__cell_blue {
+                color: #2e8bb6;
+                border-left: 1px solid #eaeaea;
+                padding-left: 22px;
+            }
+
+            .table__body__row__cell_wide {
+                padding: 15px 22px 15px 19px;
             }
 
         .table__body__row:hover {
             background: #e3e8ed;
         }
+

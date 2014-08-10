@@ -35,7 +35,7 @@
             }
 
             .engine__description__right__bottom {
-                margin-top: 22px;
+                margin-top: 24px;
             }
 
                 .engine__description__right__bottom__price {
@@ -52,13 +52,42 @@
                 }
 
             .engine__description__right__links {
-                margin: -20px 0 0 200px;
+                margin: -14px 0 0 189px;
             }
 
     .engine__table {
-
+        margin-top: 20px;
     }
+
+        .engine__table__title {
+            font-size: 18px;
+            line-height: 20px;
+            color: #454545;
+            padding-left: 46px;
+            background: url(../images/gear_black.png) no-repeat 4px 0;
+            width: 30px;
+            height: 45px;
+        }
+
+        .engine__table__item {
+
+        }
 
     .engine__action {
-
+        margin-top: 12px;
     }
+
+        .engine__action__left {
+            display: inline-block;
+            vertical-align: middle;
+            width: 267px;
+        }
+
+        .engine__action__right {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 15px;
+            font-size: 15px;
+            line-height: 17px;
+            color: #353535;
+        }
