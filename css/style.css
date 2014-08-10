@@ -7,6 +7,7 @@
 @import url(nays-field.css);
 @import url(nays-capcha.css);
 @import url(nays-button.css);
+@import url(jcarousel.skeleton.css);
 @import url(_link.css);
 @import url(_link-list.css);
 @import url(_icon.css);
@@ -37,3 +38,13 @@
 @import url(_body.css);
 @import url(_region.css);
 @import url(_page.css);
+
+.slider-image {
+    width: 1200px;
+    height: 196px;
+}
+
+.slider-image-big {
+    width: 1200px;
+    height: 350px;
+}
