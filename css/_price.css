@@ -1,0 +1,18 @@
+.price {
+    text-align: center;
+}
+
+    .price__top {
+        background: #fff url(../images/rouble2.png) no-repeat 96px center;
+        font-size: 18px;
+        line-height: 20px;
+        color: #2e8bb6;
+        padding: 8px 13px;
+    }
+
+    .price__bottom {
+        font-size: 13px;
+        line-height: 15px;
+        color: #454545;
+        margin-top: 4px;
+    }

@@ -24,3 +24,10 @@
     background: #568cbc url(../images/icon_tool.png) no-repeat 8px 4px;
 }
 
+.button_rect {
+    border-radius: 0;
+    border: none;
+    background: #2e8bb6 url(../images/icon_tool.png) no-repeat 8px 6px;
+    text-decoration: underline;
+    padding-left: 37px;
+}
