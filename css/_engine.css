@@ -16,12 +16,14 @@
     }
 
         .engine__description__left {
-            width: 197px;
-            height: 179px;
-            background: #fff;
             display: inline-block;
             vertical-align: top;
         }
+
+            .engine__description__left__image {
+                max-width: 197px;
+                max-height: 179px;
+            }
 
         .engine__description__right {
             margin-left: 22px;
@@ -31,7 +33,10 @@
         }
 
             .engine__description__right__top {
-
+                font-size: 13px;
+                line-height: 15px;
+                color: #454545;
+                margin-top: 15px;
             }
 
             .engine__description__right__bottom {

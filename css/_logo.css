@@ -21,7 +21,10 @@
         padding-top: 4px;
     }
 
-    .logo__text_blue {
-        color: #c5ddf5;
-        display: inline;
-    }
+        .logo__text__top {
+
+        }
+
+        .logo__text__bottom {
+            color: #c5ddf5;
+        }

@@ -36,4 +36,12 @@
             display: inline-block;
             vertical-align: middle;
             margin-left: 10px;
+            text-decoration: underline;
+            font-size: 13px;
+            line-height: 15px;
+            color: #a1a1a1;
+        }
+
+        .top__sign-in__link:hover {
+            text-decoration: none;
         }

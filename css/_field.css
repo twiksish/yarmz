@@ -2,12 +2,6 @@
 
 }
 
-    .field__label {
-        margin: 0 0 6px;
-        padding: 0 10px;
-        font-size: 13px;
-    }
-
     .field__input {
         outline: none;
         -webkit-box-sizing: border-box;
@@ -26,13 +20,6 @@
         background: #4c4c4c;
     }
 
-    textarea.field__input {
-        padding-top: 6px;
-        padding-bottom: 6px;
-        height: 60px;
-        resize: vertical;
-    }
-
     .field__input::-webkit-input-placeholder { color: #a1a1a1; }
     .field__input::-moz-placeholder { color: #a1a1a1; }
     .field__input:-ms-input-placeholder { color: #a1a1a1; }
@@ -45,6 +32,3 @@
     .field__input:focus::-moz-placeholder { color: #7e7e7e; }
     .field__input:focus:-ms-input-placeholder { color: #7e7e7e; }
 
-    .field__note {
-        margin: 6px 0 0;
-    }

@@ -3,7 +3,7 @@
 }
     .nav__item {
         font-size: 15px;
-        line-height: 87px;
+        line-height: 86px;
         color: #fff;
         text-transform: uppercase;
         background: #73a4cf;
@@ -13,26 +13,22 @@
         vertical-align: top;
     }
 
-    .nav__item:first-child {
-        background: #4c4c4c;
-    }
-
         .nav__item__link {
-            padding: 43px 32px;
+            padding: 33px;
             white-space: nowrap;
         }
 
         .nav__item__link:hover {
-            background: url(../images/nav_arrow.png) no-repeat center 65px;
+            background: #4c4c4c url(../images/nav_arrow.png) no-repeat center 65px;
         }
 
         .nav__item__link_active {
-            background: url(../images/nav_arrow.png) no-repeat center 65px;
+            background: #4c4c4c url(../images/nav_arrow.png) no-repeat center 65px;
         }
 
         .nav__item__separator {
-            background: url(../images/nav_separator.jpg);
-            width: 2px;
+            border-left: 1px solid #4787b3;
+            border-right: 1px solid #5abaf6;
             height: 84px;
             position: absolute;
             top: 2px;

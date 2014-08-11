@@ -1,14 +1,11 @@
 .content {
-    padding: 50px 0 50px 0;
+    padding: 50px 0 0;
 }
     .content__top {
-        padding-bottom: 16px;
-        border-bottom: 1px solid #fff;
+
     }
 
     .content__middle {
-        padding-bottom: 16px;
-        border-bottom: 1px solid #fff;
         margin-top: 35px;
     }
 

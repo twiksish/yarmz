@@ -1,0 +1,55 @@
+.nays-feedback {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 768px;
+    border: 8px solid #578eb4;
+    background: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+}
+    .nays-feedback__title {
+        padding: 18px 29px 13px;
+        background: #eee;
+        font-size: 24px;
+        line-height: 24px;
+        color: #232323;
+    }
+
+    .nays-feedback__note {
+        padding: 13px 30px 14px;
+        background: #f6f6f6;
+        font-size: 12px;
+        line-height: 15px;
+        color: #232323;
+    }
+
+    .nays-feedback__body {
+        padding: 16px 26px 14px 253px;
+        position: relative;
+    }
+
+        .nays-feedback__body__sidebar {
+            position: absolute;
+            left: 30px;
+            width: 185px;
+            top: 16px;
+            font-size: 12px;
+            line-height: 14px;
+            color: #444;
+        }
+
+        .nays-feedback__body__separator {
+            position: absolute;
+            top: 16px;
+            bottom: 14px;
+            left: 234px;
+            width: 1px;
+            background: linear-gradient(#c1c1c1, #c1c1c1 2px, #fff 2px, #fff);
+            background-size: 1px 4px;
+            background-repeat: repeat;
+        }
+
+
+    .nays-feedback__body__content {
+        padding: 0 0 19px;
+    }

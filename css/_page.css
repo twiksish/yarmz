@@ -1,18 +1,22 @@
 .page {
     position: relative;
 }
+
     .page__top {
         background: #343434;
         border-bottom: 1px solid #3a3a3a;
     }
+
     .page__header {
         background: #4c4c4c;
     }
 
     .page__slider {
-        background: url(../images/slider_image1.jpg) no-repeat top center;
-        width: 1200px;
-        margin: 0 auto;
+        height: 196px;
+    }
+
+    .page__slider_big {
+        height: 350px;
     }
 
     .page__nav {
@@ -27,6 +31,7 @@
 
     .page__body {
         background: #eaeaea url(../images/icon_gear.png) no-repeat bottom center;
+        padding-bottom: 95px;
     }
 
     .page__service {

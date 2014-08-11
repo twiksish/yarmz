@@ -26,7 +26,20 @@
                 padding: 15px 22px 15px 19px;
             }
 
+            .table__body__row_last {
+                height: 16px;
+                background: #eaeaea;
+            }
+
+            .table__body__row_last .table__body__row__cell {
+                border-bottom: 1px solid #fff;
+            }
+
         .table__body__row:hover {
             background: #e3e8ed;
+        }
+
+        .table__body__row:last-child:hover {
+            background: #eaeaea;
         }
 

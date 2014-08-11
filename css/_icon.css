@@ -3,12 +3,6 @@
     vertical-align: top;
 }
 
-.icon_gear {
-    background: url(../images/icon_gear.png);
-    width: 168px;
-    height: 82px;
-}
-
 .icon_gear-small {
     background: url(../images/icon_gear_small.png);
     width: 55px;

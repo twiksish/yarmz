@@ -5,12 +5,11 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width">
-        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
         <link rel="stylesheet" href="css/style.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
 
-        <title></title>
+        <title>ЯРМЗ</title>
 
     </head>
 
@@ -38,17 +37,15 @@
                                 </div>
                             </div><!--
                          --><div class="top__search__icon">
-                                <i class="icon icon_search"></i>
+                                <input class="icon icon_search" type="submit" value="">
                             </div>
                         </div>
-                        <div class="top__sign-in">
+                        <a class="top__sign-in" href="#">
                             <div class="top__sign-in__icon">
                                 <i class="icon icon_in"></i>
                             </div><!--
-                         --><div class="top__sign-in__link">
-                                <a class="link link_gray" href="#">Вход для партнеров</a>
-                            </div>
-                        </div>
+                         --><div class="top__sign-in__link">Вход для партнеров</div>
+                        </a>
                     </div>
                 </div>
             </div><!-- /page__top -->
@@ -61,7 +58,10 @@
                         <div class="header__logo">
                             <a class="logo" href="#">
                                 <div class="logo__image"></div>
-                                <div class="logo__text">Ярославский ремонтный<br><div class="logo__text logo__text_blue">моторный завод</div> </div>
+                                <div class="logo__text">
+                                    <div class="logo__text__top">Ярославский ремонтный</div>
+                                    <div class="logo__text__bottom">моторный завод</div>
+                                </div>
                             </a>
                         </div><!--
                      --><div class="header__contacts">
@@ -75,7 +75,7 @@
                                         <i class="icon icon_phone"></i>
                                     </div><!--
                                  --><div class="action__item__text">
-                                        <a class="link link_light-blue">Обратный звонок</a>
+                                        <a class="link link_light-blue" href="#" data-popup="#feedback">Обратный звонок</a>
                                     </div>
                                 </li><!--
                              --><li class="action__item">
@@ -83,7 +83,7 @@
                                         <i class="icon icon_mail"></i>
                                     </div><!--
                                  --><div class="action__item__text">
-                                        <a class="link link_light-blue">Отправить<br>нам сообщение</a>
+                                        <a class="link link_light-blue" href="#" data-popup="#feedback">Отправить<br>нам сообщение</a>
                                     </div>
                                 </li>
                             </ul>
@@ -94,22 +94,16 @@
                 </div>
             </div><!-- /page__header -->
 
-            <div class="page__slider">
-                <div class="jcarousel">
-                    <ul>
-                        <li>
-                            <img class="slider-image-big" src="images/slider_image1.jpg"">
-                        </li>
-                        <li>
-                            <img class="slider-image-big" src="images/slider_image2.jpg">
-                        </li>
-                        <li>
-                            <img class="slider-image-big" src="images/slider_image3.jpg">
-                        </li>
-                        <li>
-                            <img class="slider-image-big" src="images/slider_image4.jpg">
-                        </li>
-                    </ul>
+            <div class="page__slider page__slider_big">
+                <div class="jcarousel-wrapper">
+                    <div class="jcarousel">
+                        <ul class="jcarousel__list">
+                            <li class="jcarousel__list__item" style="background-image: url(images/slider_image1.jpg);"></li>
+                            <li class="jcarousel__list__item" style="background-image: url(images/slider_image2.jpg);"></li>
+                            <li class="jcarousel__list__item" style="background-image: url(images/slider_image3.jpg);"></li>
+                            <li class="jcarousel__list__item" style="background-image: url(images/slider_image4.jpg);"></li>
+                        </ul>
+                    </div>
                     <div class="jcarousel-pagination jcarousel-pagination_big" data-jcarouselpagination="true"></div>
                 </div>
             </div><!-- /page__slider -->
@@ -120,10 +114,10 @@
 
                         <ul class="nav">
                             <li class="nav__item">
-                                <a class="nav__item__link" href="#">О компании</a>
+                                <a class="nav__item__link nav__item__link_active" href="#">О компании</a>
                             </li><!--
                          --><li class="nav__item">
-                                <a class="nav__item__link nav__item__link_active" href="#">Каталог</a>
+                                <a class="nav__item__link" href="catalog.html">Каталог</a>
                                 <hr class="nav__item__separator">
                             </li><!--
                          --><li class="nav__item">
@@ -139,7 +133,7 @@
                                 <hr class="nav__item__separator">
                             </li><!--
                          --><li class="nav__item">
-                                <a class="nav__item__link" href="#">Контакты</a>
+                                <a class="nav__item__link" href="contacts.html">Контакты</a>
                             </li>
                         </ul>
 
@@ -151,13 +145,15 @@
             <div class="page__body">
                 <div class="region">
                     <div class="content">
-                        <div class="content__top">
+                        <section class="content__top">
                             <div class="catalog">
                                 <div class="catalog">
                                     <div class="catalog__top">
                                         <div class="catalog__top__left">
                                             <div class="text">
-                                                <div class="text__title">Новые двигатели ЯМЗ и ТМЗ</div>
+                                                <div class="text__title">
+                                                    <h1 class="title">Новые двигатели ЯМЗ и ТМЗ</h1>
+                                                </div>
                                                 <div class="text__description text__description_narrow">Поставка двигателей ЯМЗ и ТМЗ. Только оригинальные комплектующие</div>
                                             </div>
                                         </div>
@@ -294,19 +290,26 @@
                                                     <button class="button">Подробнее</button>
                                                 </td>
                                             </tr>
+                                            <tr class="table__body__row table__body__row_last">
+                                                <td class="table__body__row__cell"></td>
+                                                <td class="table__body__row__cell"></td>
+                                                <td class="table__body__row__cell"></td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content__middle">
+                        </section>
+                        <section class="content__middle">
                             <div class="catalog">
                                 <div class="catalog">
                                     <div class="catalog__top">
                                         <div class="catalog__top__left">
                                             <div class="text">
-                                                <div class="text__title">Двигатели ЯМЗ и ТМЗ после кап.ремонта</div>
+                                                <div class="text__title">
+                                                    <h1 class="title">Двигатели ЯМЗ и ТМЗ после кап.ремонта</h1>
+                                                </div>
                                                 <div class="text__description text__description_narrow">При капитальном ремонте мы используем только оригинальные комплектующие</div>
                                             </div>
                                         </div>
@@ -443,16 +446,23 @@
                                                     <button class="button">Подробнее</button>
                                                 </td>
                                             </tr>
+                                            <tr class="table__body__row table__body__row_last">
+                                                <td class="table__body__row__cell"></td>
+                                                <td class="table__body__row__cell"></td>
+                                                <td class="table__body__row__cell"></td>
+                                            </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="content__bottom">
+                        </section>
+                        <section class="content__bottom">
                             <div class="content__bottom__left">
                                 <div class="text">
-                                    <div class="text__title">О компании</div>
+                                    <div class="text__title">
+                                        <h1 class="title">О компании</h1>
+                                    </div>
                                     <div class="text__description-italic">
                                         <div class="wysiwyg">
                                             <em>Если у Вас возникнут неразрешимые проблемы с авто, доверьтесь профессионалам. На нашем предприятии работают лучшие специалисты по ремонту двигателей, КПП и ТНВД.</em>
@@ -473,7 +483,9 @@
                             <div class="content__bottom__right">
                                 <div class="content__bottom__right__top">
                                     <div class="text">
-                                        <div class="text__title">Наши возможности</div>
+                                        <div class="text__title">
+                                            <h1 class="title">Наши возможности</h1>
+                                        </div>
                                         <div class="text__description">
                                             <div class="wysiswyg">
                                                 <p>Вы сможете в удобное для Вас время и по выгодной цене приобрести качественные двигатели индивидуальной сборки. Сделать нужный выбор Вам поможет предоставленный к Вашим услугам каталог готовой продукции, который у нас постоянно обновляется.</p>
@@ -486,7 +498,9 @@
                                 </div>
                                 <div class="content__bottom__right__bottom">
                                     <div class="text">
-                                        <div class="text__title">Что мы предлагаем</div>
+                                        <div class="text__title">
+                                            <h1 class="title">Что мы предлагаем</h1>
+                                        </div>
                                         <div class="text__description">
                                             <div class="wysiwyg">
                                                 <p>ООО «Восход» всегда готова предложить Вам широкий спектр услуг по ремонту двигателей, КПП и ТНВД. Мы постараемся выполнить ремонт в удобное для Вас время. На все услуги предоставляются выгодные ценовые предложения.</p>
@@ -542,7 +556,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div><!-- /page__body -->
@@ -578,7 +592,7 @@
             <div class="page__prefooter">
                 <div class="region">
                     <div class="prefooter">
-                        <div class="prefooter__left">
+                        <section class="prefooter__left">
                             <div class="prefooter__left__top">
                                 <div class="prefooter__left__top__title">Новости</div>
                                 <div class="prefooter__left__top__link">
@@ -603,8 +617,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--
-                     --><div class="prefooter__middle">
+                        </section><!--
+                     --><section class="prefooter__middle">
                             <div class="prefooter__middle__top">
                                 <div class="prefooter__middle__top__title">Контакты</div>
                                 <div class="prefooter__middle__top__link">
@@ -619,7 +633,7 @@
                                             <i class="icon icon_phone"></i>
                                         </div><!--
                                      --><div class="action__item__text">
-                                            <a class="link link_light-blue">Обратный звонок</a>
+                                            <a class="link link_light-blue" href="#" data-popup="#feedback">Обратный звонок</a>
                                         </div>
                                     </li><!--
                                  --><li class="action__item">
@@ -627,31 +641,39 @@
                                             <i class="icon icon_mail"></i>
                                         </div><!--
                                      --><div class="action__item__text">
-                                            <a class="link link_light-blue">Отправить<br>нам сообщение</a>
+                                            <a class="link link_light-blue" href="#" data-popup="#feedback">Отправить<br>нам сообщение</a>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                        </div><!--
-                     --><div class="prefooter__right">
+                        </section><!--
+                     --><section class="prefooter__right">
                             <div class="prefooter__right__top">Мы в соцсетях</div>
                             <div class="prefooter__right__bottom">
                                 <ul class="social">
                                     <li class="social__item">
-                                        <i class="icon icon_google"></i>
+                                        <a class="social__item__link" href="#">
+                                            <i class="icon icon_google"></i>
+                                        </a>
                                     </li><!--
                                  --><li class="social__item">
-                                        <i class="icon icon_fb"></i>
+                                        <a class="social__item__link" href="#">
+                                            <i class="icon icon_fb"></i>
+                                        </a>
                                     </li><!--
                                  --><li class="social__item">
-                                        <i class="icon icon_vk"></i>
+                                        <a class="social__item__link" href="#">
+                                            <i class="icon icon_vk"></i>
+                                        </a>
                                     </li><!--
                                  --><li class="social__item">
-                                        <i class="icon icon_twitter"></i>
+                                        <a class="social__item__link" href="#">
+                                            <i class="icon icon_twitter"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div><!-- /page__prefooter -->
@@ -682,11 +704,122 @@
         </div><!-- /page -->
 
 
+        <!-- .popup -->
+        <div class="nays-popup" id="feedback">
+            <div class="nays-popup__container">
+                <div class="nays-popup__container__overlay"></div>
+                <div class="nays-popup__container__viewport">
+                    <div class="nays-popup__container__viewport__slot">
+
+                        <!-- feedback -->
+                        <div class="nays-feedback">
+                            <div class="nays-feedback__title">
+                                Обратная связь
+                            </div>
+
+                            <div class="nays-feedback__note">
+                                Заполните, пожайлуста, форму ниже, и мы ответим на все Ваши вопросы в течение 24 часов.
+                            </div>
+
+                            <div class="nays-feedback__body">
+                                <div class="nays-feedback__body__content">
+                                    <div class="nays-form">
+                                        <div class="nays-form__errors">
+                                            <div class="nays-form__errors__title">При отправке сообщения были обнаружены следующие ошибки:</div>
+                                            <ul class="nays-form__errors__list">
+                                                <li class="nays-form__errors__list__item">Необходимо заполнить поле «ФИО»</li>
+                                                <li class="nays-form__errors__list__item">Необходимо заполнить поле «Контактный телефон»</li>
+                                                <li class="nays-form__errors__list__item">Необходимо заполнить поле «Сообщение / Вопрос / Предложение»</li>
+                                                <li class="nays-form__errors__list__item">Не верно указан «Проверочный код с картинки»</li>
+                                            </ul>
+                                        </div>
+                                        <div class="nays-form__unit">
+                                            <div class="nays-form__unit__row">
+                                                <div class="nays-form__unit__row__field">
+                                                    <div class="nays-field nays-field_error">
+                                                        <input class="nays-field__input" type="text" placeholder="ФИО">
+                                                        <div class="nays-field__required">*</div>
+                                                    </div>
+                                                </div>
+                                                <div class="nays-form__unit__row__output">Необходимо заполнить обязательное поле «ФИО»</div>
+                                            </div>
+                                            <div class="nays-form__unit__row">
+                                                <div class="nays-form__unit__row__field">
+                                                    <div class="nays-field nays-field_error">
+                                                        <input class="nays-field__input" type="tel" placeholder="Контактный телефон">
+                                                        <div class="nays-field__required">*</div>
+                                                    </div>
+                                                </div>
+                                                <div class="nays-form__unit__row__output">Необходимо заполнить обязательное поле «Контактный телефон»</div>
+                                            </div>
+                                            <div class="nays-form__unit__row">
+                                                <div class="nays-form__unit__row__field">
+                                                    <div class="nays-field">
+                                                        <input class="nays-field__input" type="email" placeholder="E-mail">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="nays-form__unit__row nays-form__unit__row_larger">
+                                                <div class="nays-form__unit__row__field">
+                                                    <div class="nays-field nays-field_error">
+                                                        <textarea class="nays-field__input" placeholder="Сообщение / Вопрос / Предложение"></textarea>
+                                                        <div class="nays-field__required">*</div>
+                                                    </div>
+                                                </div>
+                                                <div class="nays-form__unit__row__output">Необходимо заполнить обязательное поле «Сообщение / Вопрос / Предложение»</div>
+                                            </div>
+                                            <div class="nays-form__unit__row nays-form__unit__row_larger nays-form__unit__row_capcha">
+                                                <div class="nays-form__unit__row__field">
+                                                    <div class="nays-capcha">
+                                                        <div class="nays-capcha__image">
+                                                            <img class="nays-capcha__image__file" src="images/captcha.png" width="120" height="50" alt="">
+                                                        </div><!--
+                                                     --><div class="nays-capcha__refresh">
+                                                            <a class="nays-capcha__refresh__link" href="#"></a>
+                                                        </div><!--
+                                                     --><div class="nays-capcha__title">
+                                                            <label class="nays-capcha__title__label" for="capcha-field">Введите здесь код с картинки:</label>
+                                                        </div><!--
+                                                     --><div class="nays-capcha__field">
+                                                            <div class="nays-field nays-field_error">
+                                                                <input class="nays-field__input" type="text" id="capcha-field">
+                                                                <div class="nays-field__required">*</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="nays-form__unit__row__output">Необходимо ввести код подтверждения</div>
+                                            </div>
+                                            <div class="nays-form__unit__row nays-form__unit__row_submit">
+                                                <div class="nays-form__unit__row__button">
+                                                    <input class="nays-button" type="submit" value="Отправить">
+                                                </div><!--
+                                             --><div class="nays-form__unit__row__button">
+                                                    <input class="nays-button nays-button_faded" type="submit" value="Очистить">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nays-feedback__body__separator"></div>
+                                <div class="nays-feedback__body__sidebar">
+                                    Все поля отмеченные «*» обязательны к заполнению.
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.feedback -->
+                        <i class="nays-popup__container__viewport__slot__close">x</i>
+                    </div>
+                </div>
+            </div>
+        </div> <!--/.popup -->
+
 
 
 
         <!-- Scripts -->
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/nays-popup.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/jquery.jcarousel.js"></script>
         <script src="js/jcarousel.skeleton.js"></script>

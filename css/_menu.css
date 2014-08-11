@@ -1,13 +1,7 @@
 .menu {
-
+    padding-top: 11px;
+    background: #303030 ;
 }
-
-    .menu__top {
-        height: 11px;
-        background: #303030;
-        border-top: 1px solid #3d3d3d;
-        border-bottom: 1px solid #3d3d3d;
-    }
 
     .menu__item {
         background: #fff;

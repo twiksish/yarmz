@@ -1,16 +1,13 @@
 .title {
     display: block;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 20px;
-}
-
-.title_large {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 26px;
+    color: #454545;
 }
 
 .title_small {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #454545;
 }

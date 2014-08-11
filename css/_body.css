@@ -24,8 +24,6 @@
 
         .body__content__item {
             margin-top: 40px;
-            border-bottom: 1px solid #fff;
-            padding-bottom: 16px;
         }
 
         .body__content__map {
@@ -33,9 +31,7 @@
         }
 
             .body__content__map__title {
-                font-size: 18px;
-                line-height: 20px;
-                color: #454545;
+
             }
 
             .body__content__map__item {
